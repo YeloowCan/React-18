@@ -1,7 +1,12 @@
 import React from 'react';
+import BatchSetState from './02-batchSetState';
 
 function App() {
-  return <div className="App">aaa</div>;
+  return (
+    <div>
+      <BatchSetState />
+    </div>
+  );
 }
 
 export default App;
