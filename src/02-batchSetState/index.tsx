@@ -10,10 +10,8 @@ const BatchSetState = () => {
     <div>
       <button
         onClick={() => {
-          setTimeout(() => {
-            setCount1(count1 + 1);
-            setCount2(count2 + 1);
-          }, 100);
+          setCount1(count1 + 1);
+          setCount2(count2 + 1);
         }}
       >
         点击
